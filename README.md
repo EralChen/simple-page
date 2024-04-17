@@ -49,6 +49,7 @@ https://eralchen.github.io/vuesri
 ```bash
 # git clone [仓库地址] 
 git clone git@github.com:EralChen/simple-page.git
+
 ```
 
 如果从新建仓库开始，拉取到的将是一个空仓库。
