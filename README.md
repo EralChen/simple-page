@@ -49,7 +49,6 @@ https://eralchen.github.io/vuesri
 ```bash
 # git clone [仓库地址] 
 git clone git@github.com:EralChen/simple-page.git
-
 ```
 
 如果从新建仓库开始，拉取到的将是一个空仓库。
@@ -59,4 +58,19 @@ git clone git@github.com:EralChen/simple-page.git
 
 这里我们先简单放上一个 `README.md` 文件，然后提交到远程仓库。
 
+![image-20240417135731056](README.assets/image-20240417135731056.png)
 
+![image-20240417135643644](README.assets/image-20240417135643644.png)
+
+![image-20240417135849331](README.assets/image-20240417135849331.png)
+
+### 建立空的 `gh-pages` 分支
+
+习惯上，通常将 `Github Pages` 的页面放在 `gh-pages` 分支下。
+
+因此我们需要在仓库中新建一个空的 `gh-pages` 分支。
+
+```bash
+# git checkout -b gh-pages
+git checkout --orphan gh-pages
+```
